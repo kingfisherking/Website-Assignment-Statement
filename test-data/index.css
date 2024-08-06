@@ -1,0 +1,12 @@
+div {
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+}
+section {
+    background-color: green;
+}
+
+#objective, #summary, #goals, #qualifications, #uniqueness, #education, #work, #skills, #accessibility {
+    display: none;
+}

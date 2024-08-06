@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="final.css">
+        <script src="niantic.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+        </style>
+    </head>
+    <body>
+        <img class="profile" src="Bingo.png">
+        <header>AKILI THOMPSON HALL <span onclick="toggle()">Accessibility</span></header>
+        
+        <main>
+            <section id="main">
+                <div class="row1">
+                    <div onclick="trans('main', 'objective')" class="icon">&#127758;<span>objective</span></div>
+                    <div onclick="trans('main', 'education')" class="icon">&#127891;<span>education</span></div>
+                </div>
+                <div class="row2">
+                    <div onclick="trans('main', 'work')" class="icon">&#128736;<span>work</span></div>
+                    <div onclick="trans('main', 'passion')" class="icon">&#128150;<span>passion</span></div>
+                </div>
+            </section>
+    
+            <section id="objective">
+                <div class="previous" onclick="trans('objective', 'main')">&lt Previous</div>
+                <div class="row1">
+                    <div onclick="trans('objective', 'summary')" class="icon">&#10133;<span>summary</span></div>
+                    <div onclick="trans('objective', 'goals')" class="icon">&#129349;<span>goals</span></div>
+                </div>
+                <div class="row2">
+                    <div onclick="trans('objective', 'qualifications')" class="icon">&#9989;<span>qualifications</span></div>
+                    <div onclick="trans('objective', 'uniqueness')" class="icon">&#10024;<span>uniqueness</span></div>
+                </div>
+            </section>
+    
+            <section id="summary">
+                <div class="previous" onclick="trans('summary', 'objective')">&lt Previous</div>
+                <div class="filler">hi</div>
+                <p>
+                    Hello! My name is Akili Thompson Hall, He/Him pronouns; I respond to either Thompson or Akili, just let me know your preference! I am a highly motivated and adaptable professional with a background in customer service and a strong passion for technology. My journey into the world of software engineering is driven by a deep fascination with data analytics, cybersecurity, and software development. My experience in customer service has honed my communication and problem-solving skills, which I believe are invaluable assets for a software engineer.
+                    <br><br><span><img src="https://www.bluey.tv/wp-content/uploads/2023/07/B2.png" class="bingo"> and this is Bingo!</span>
+                </p>
+            </section>
+    
+            <section id="goals">
+                <div class="previous" onclick="trans('goals', 'objective')">&lt Previous</div>
+                <div class="row1">
+                    <div class="hov1 icon">&#127993;<span>proficiency</span></div>
+                </div>
+                <div class="row2">
+                    <div class="hov2 icon">&#129417;<span>experience</span></div>
+                    <div class="hov3 icon">&#127960;<span>community</span></div>
+                </div>
+                <p>
+                    <span class="initial">Right now, I have 3 main goals that I&#39;m always working towards. I find that my career has been built around these concepts and I hope to meet these goals soon.</span>
+                    <span class="opt1">I constantly learn new things in order to prepare myself for entry level roles within the realm of software engineering. I also plan on continuing education at an accredited institution in pursuit of a Bachelor&#39;s degree.</span>
+                    <span class="opt2">I am deeply interested in getting industry experience as soon as possible. As I am self-taught in most areas, I would love to understand more about the software industry so that I can quickly achieve new heights once I have accepted a new role in the field. It would also really help my confidence and potentially get rid of my imposter syndrome.</span>
+                    <span class="opt3">I&#39;ve found that the most successful individuals are those who have found a community of like-minded individuals who are in pursuit of similar objectives and goals. I hope to make new friends wherever I go.</span> 
+                </p>
+            </section>
+    
+            <section id="qualifications">
+                <div class="previous" onclick="trans('qualifications', 'objective')">&lt Previous</div>
+                <div class="row1">
+                    <div class="hov1 icon">&#129517;<span>curiousity</span></div>
+                    <div class="hov2 icon">&#128142;<span>dedication</span></div>
+                </div>
+                <div class="row2">
+                    <div class="hov3 icon">&#9201;<span>productivity</span></div>
+                    <div class="hov4 icon">&#128172;<span>communication</span></div>
+                </div>
+                <div class="row3">
+                    <div class="hov5 icon">&#129504;<span>acuity</span></div>
+                    <div class="hov6 icon">&#128200;<span>analysis</span></div>
+                </div>
+                <p>
+                    <span class="initial">I believe my experiences, career, and interests have given me the foundation required to become an excellent software engineer. These are a few of the traits that make me highly qualified.</span>
+                    <span class="opt1">I am naturally curious! Whether it&#39;s a wikipedia rabbit hole or ted-talks on the human brain, I love to learn new things and ask deep questions.</span>
+                    <span class="opt2">I have been working towards moving into the field of software engineering for some time now. I am always open to new opportunities; if one door closes, you better believe I&#39;m going to look for the next one.</span>
+                    <span class="opt3">This is one of the most important skills I&#39;ve curated. Whether it&#39;s a solo project or a company wide initiative, I am always working to keep myself on track and up-to-date.</span>
+                    <span class="opt4">As someone in the field of customer service, communication has become a speciality of mine. I know how vital it is to make sure everyone is on the same page.</span>
+                    <span class="opt5"> If you can&#39;t tell by now, I am eager to learn and always studying. I have an innate ability to pick up on things quickly and utilize the knowledge in a wide manner of ways. I believe that there&#39;s always a way to apply past lessons to new challenges.</span>
+                    <span class="opt6">Critical thinking is, well, critical. I subscribe to the belief that mental flexibility and decision analysis are necessary for all aspects of life. Thinking critically is the best way to ensure success and I bring that belief everywhere I go.</span>
+                </p>
+            </section>
+    
+            <section id="uniqueness">
+                <div class="previous" onclick="trans('uniqueness', 'objective')">&lt Previous</div>
+                <div class="row1">
+                    <div class="hov1 icon">&#128300;<span>testing</span></div>
+                </div>
+                <div class="row2">
+                    <div class="hov2 icon">&#127912;<span>creativity</span></div>
+                    <div class="hov3 icon">&#129309;<span>empathy</span></div>
+                </div>
+                
+                <div class="row3">
+                    <div class="hov4 icon">&#127919;<span>alignment</span></div>
+                    <div class="hov5 icon">&#127803;<span>mindset</span></div>
+                </div>
+                <p>
+                    <span class="initial">While it&#39;s nice to fit in, sometimes life requires you to think outside of the box. These are the qualities that make me stand out amongst the crowd.</span>
+                    <span class="opt1">After a recent foray into software testing and crowd testing, I&#39;ve come to understand just how important it is to check back in with yourself. After studying with the ISTQB, I understand more about things like Agile methodology or how to structure approaches around criteria and requirements.</span>
+                    <span class="opt2">My soul is that of an artist. While it can be unconventional, I believe that innovation often comes from avant-garde places or through divergent thinking. </span>
+                    <span class="opt3">It&#39;s not only important to understand what others are going through, it&#39;s imperative to grant equity and accessibility whenever possible. As someone with a disability, I am committed to making sure everyone can take part.</span>
+                    <span class="opt4">Niantic sees a future where their technology and infrastructure paves the way for advanced robotics and adaptive computing. As someone who seeks to fight issues plaguing humanity, I find that this mission aligns with personal goals to disrupt rigid industries and revolutionize approaches to solving hunger, disease, and global conflict.</span>
+                    <span class="opt5">Having a growth mindset is about believing that you can develop yourself. A hunger for knowledge leads to embracing challenges, persisting through setbacks, learning from criticism, and consistent effort on the path to mastery.</span>  
+                </p>
+            </section>
+    
+            <section id="education" >
+                <div class="previous" onclick="trans('education', 'main')">&lt Previous</div>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Area</th>
+                    </tr>
+                    <tr>
+                        <td>Udacity Business Analytics Nanodegree</td>
+                        <td>November 2023</td>
+                        <td>Mastered data fundamentals applicable to any industry and learned to make data-driven decisions. <br>From collecting and analyzing data to modeling business scenarios, this course teaches Excel, SQL, and Tableau, utilizing data visualization skills to communicate findings.</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Google Data Analytics Professional Certificate</td>
+                        <td>August 2023</td>
+                        <td>Prepared, processed, and analyzed data to help inform business decisions by developing in-demand data analytics skills using spreadsheets, SQL, Tableau, R, and more.</td>
+                    </tr>
+                    <tr>
+                        <td>Google Cybersecurity Professional Certificate</td>
+                        <td>April 2023</td>
+                        <td>Upskill program to learn industry standard tools like Python, Linux, SQL, Security Information and Event Management (SIEM) tools, and Intrusion Detection Systems (IDS).</td>
+                    </tr>
+                </table>
+            </section>
+    
+            <section id="work">
+                <div class="previous" onclick="trans('work', 'main')">&lt Previous</div>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>Multi Focus Advocate <br><br> Cash App </td>
+                        <td>February 2019 to Present</td>
+                        <td>
+                            Advocate for customers by identifying trends in issues and suggesting improvements to processes, policies and products. <br> 
+                            Logging issues with JIRA, monitoring defects, and compiling error reports; Alpha testing components and communicating user stories and stakeholder requirements to Engineering and Product teams.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Crowdtester <br><br> uTest, Testlio</td>
+                        <td>April 2024 to Present </td>
+                        <td>System, accessibility, usability, functional, non-functional, and localization testing. <br>
+                            Submit bugs and issue reports for clients, test case execution, and quality control.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Contract Service Support <br><br> Swoon Staffing</td>
+                        <td>September 2018 to February 2019</td>
+                        <td>
+                            Delivers basic technical, administrative, or operative Customer Service tasks. <br>
+                            Performs simple data entry, sorts requests, and maintains files.
+                        </td>
+                    </tr>
+                </table>
+            </section>
+    
+            <section id="passion">
+                <div class="previous" onclick="trans('passion', 'main')">&lt Previous</div>
+                <div class="row1">
+                    <div class="hov1 icon">&#128569;<span>cartoons</span></div>
+                </div>
+                <div class="row2">
+                    <div class="hov2 icon">&#127793;<span>gardening</span></div>
+                    <div class="hov3 icon">&#127830;<span>food</span></div>
+                </div>
+                
+                <p>
+                    <span class="initial">These are the things I'm most passionate about (outside of computer science). These are things I can&#39;t stop thinking about, even if it&#39;s just a small thought in the back of my head.</span>
+                    <span class="opt1">Animation is my favorite medium of art. I&#39;m also fairly partial to comics. If you want to befriend me, you could simply talk about Bluey, Avatar: The Last Airbender, or Masaaki Yuasa. I hope that I can use this passion to assist Niantic in making world class digital experiences.</span>
+                    <span class="opt2">I love plants and I&#39;m always trying to grow something I&#39;ve never grown before. Truthfully, I don&#39;t have a green thumb, but that won&#39;t stop me from planting seeds! I&#39;m deeply interested in hydroponics and aquaculture, I&#39;m hoping the inspiration Niantic brings to the adaptive computing space will help me further these interests!</span>
+                    <span class="opt3">I&#39;m addicted, I can&#39;t go a day without the stuff. In all seriousness, I think about food constantly. I have very strong opinions about food, though I am captivated with exploring new flavors and experiences. If I&#39;m not trying to invent something new, I&#39;m probably trying to perfect a recipe (or at least making it easier to cook in a toaster oven). </span>    
+                </p>
+            </section>
+            
+            <!-- https://word2cleanhtml.com/cleanit# -->
+            <section id="accessibility"> 
+                <div dir="ltr" id="docs-internal-guid-ba6e6f8f-7fff-2c73-69e6-76cc7785f8de">
+                    <h3>Summary:</h3>
+                </div>
+                <div dir="ltr">
+                    Hello! My name is Akili Thompson Hall, He/Him pronouns; I respond to either
+                    Thompson or Akili, just let me know your preference! I am a highly motivated
+                    and adaptable professional with a background in customer service and a
+                    strong passion for technology. My journey into the world of software
+                    engineering is driven by a deep fascination with data analytics,
+                    cybersecurity, and software development. My experience in customer service
+                    has honed my communication and problem-solving skills, which I believe are
+                    invaluable assets for a software engineer.
+                </div>
+                <br/>
+                <div dir="ltr">
+                    <h3>Goals:</h3>
+                </div>
+                <div dir="ltr">
+                    Right now I have 3 main goals that I&#39;m always working towards
+                </div>
+                <ul>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Education: I am constantly learning new things to prepare myself for
+                            an entry level role within the realm of software engineering. I also
+                            plan on continuing education at an accredited institution in pursuit
+                            of a Bachelor&#39;s
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Experience: As I am self-taught in most areas, I would love to
+                            understand more about the software industry so that I can quickly
+                            achieve new heights once I have accepted a new role in the field. It
+                            would also really help my confidence and potentially get rid of my
+                            imposter syndrome.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Community: I&#39;ve found that the most successful individuals are those
+                            who have found a community of like-minded individuals who are in
+                            pursuit of similar objectives and goals. I hope to make new friends
+                            wherever I go.
+                        </div>
+                    </li>
+                </ul>
+                <br/>
+                <div dir="ltr">
+                    <h3>Qualifications:</h3>
+                </div>
+                <div dir="ltr">
+                    I believe that my experiences, career, and interests have given me the
+                    foundation required to become an excellent software engineer
+                </div>
+                <ul>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Curiosity: I am naturally curious! Whether it&#39;s a wikipedia rabbit
+                            hole or ted-talks on the human brain, I love to learn new things and
+                            ask deep questions.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Dedication: I have been working towards moving into the field of
+                            software engineering for some time now. I am open to all
+                            opportunities; and if one door closes, you better believe I&#39;m going
+                            to look for the next one.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Time management: This is one of the most important skills I&#39;ve
+                            curated. Whether it&#39;s a solo project or a company wide initiative, I
+                            am always working to keep myself on track.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Communication: As someone in the field of customer service,
+                            communication has become a speciality of mine. I know how vital it
+                            is to make sure everyone is on the same page.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Teachability: If you can&#39;t tell by now, I am eager to learn and
+                            always studying something. I have an innate ability to pick up on
+                            things quickly and utilize the knowledge in a wide manner of ways. I
+                            believe that there&#39;s always a way to apply past lessons to new
+                            challenges.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Critical Thinking: Critical thinking is, well, critical. I subscribe
+                            to the belief that mental flexibility and decision analysis are
+                            necessary for all aspects of life. Thinking critically is the best
+                            way to ensure success and I bring that belief everywhere I go..
+                        </div>
+                    </li>
+                </ul>
+                <br/>
+                <div dir="ltr">
+                    <h3>Uniquity:</h3>
+                </div>
+                <div dir="ltr">
+                    While it&#39;s nice to fit in, sometimes life requires you to think outside of
+                    the box. These are the qualities that make me stand out amongst the crowd.
+                </div>
+                <ul>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Test driven: After my recent foray into software testing and crowd
+                            testing, I&#39;ve come to understand just how important it is to check
+                            back in with yourself. After studying with the International
+                            Software Testing Qualifications Board, I understand Agile
+                            methodology and how to structure approaches around criteria and
+                            requirements.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Creativity: My soul is that of an artist. While it can be
+                            unconventional, I believe that innovation can often come from avant
+                            garde places and through divergent thinking.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Empathy and Commitment to Accessibility: It&#39;s not only important to
+                            understand what others are going through, it&#39;s imperative to grant
+                            equity and accessibility whenever possible. As someone with a
+                            disability, I am committed to making sure everyone can take part.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Aligned Goals: Niantic sees a future where their technology and
+                            infrastructure paves the way for advanced robotics and adaptive
+                            computing. As someone who seeks to fight the issues plaguing
+                            humanity, I find that this mission aligns with personal goals to
+                            disrupt rigid industries and revolutionize approaches to solving
+                            hunger, disease, and global conflict.
+                        </div>
+                    </li>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Growth Mindset: Having a growth mindset is about believing that you
+                            can develop yourself. A hunger for knowledge leads to embracing
+                            challenges, persisting through setbacks, learning from criticism,
+                            and consistent effort on the path to mastery.
+                        </div>
+                    </li>
+                </ul>
+                <div dir="ltr">
+                    <h3>Passions:</h3> Below are all my passions.
+                </div>
+                <br/>
+                <div dir="ltr">
+                    Cartoons:
+                </div>
+                <div dir="ltr">
+                    Animation is my favorite medium of art. I&#39;m also fairly partial to comics.
+                    If you want to befriend me you&#39;ll talk about Bluey, Avatar: The Last
+                    Airbender, or Masaaki Yuasa.
+                </div>
+                <br/>
+                <div dir="ltr">
+                    Garden:
+                </div>
+                <div dir="ltr">
+                    I love plants and I&#39;m always trying to grow something I&#39;ve never grown
+                    before. Truthfully, I don&#39;t have a green thumb, but that won&#39;t stop me from
+                    planting seeds!
+                </div>
+                <br/>
+                <div dir="ltr">
+                    Food:
+                </div>
+                <div dir="ltr">
+                    I&#39;m addicted, I can&#39;t go a day without the stuff. In all seriousness, I
+                    think about food constantly. I have very strong opinions about food, though
+                    I am captivated with exploring new flavors and experiences. If I&#39;m not
+                    trying to come up with something new, I&#39;m probably trying to perfect a
+                    recipe (or at least translating the instructions into something a single
+                    bachelor with a toaster oven could make).
+                </div>
+                <br/>
+                <div dir="ltr">
+                    <h3>Work Experience</h3>
+                </div>
+                <br/>
+                <ul>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Multi Focus Advocate - Cash App - November 2019 - present
+                        </div>
+                    </li>
+                    <ul>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                Advocate for customers by identifying trends in issues and
+                                suggesting improvements to processes, policies and products a
+                            </div>
+                        </li>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                Logging issues with JIRA, monitoring defects, and compiling
+                                error reports; Alpha testing components and communicating user
+                                stories and stakeholder requirements to Engineering and Product
+                                teams
+                            </div>
+                        </li>
+                        <li dir="ltr">
+                            <br/>
+                        </li>
+                    </ul>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Crowdtester - Testlio and uTest - April 2024 - present
+                        </div>
+                    </li>
+                    <ul>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                System, accessibility, usability, functional, non-functional,
+                                and localization testing
+                            </div>
+                        </li>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                Submit bugs and issue reports for clients, test case execution,
+                                and quality control
+                            </div>
+                        </li>
+                    </ul>
+                </ul>
+                <br/>
+                <ul>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Contract Service Support - Swoon Staffing September 2018 to February
+                            2019
+                        </div>
+                    </li>
+                    <ul>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                Delivers basic technical, administrative, or operative Customer
+                                Service tasks
+                            </div>
+                        </li>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                Performs simple data entry, sorts requests, and maintains files
+                            </div>
+                        </li>
+                    </ul>
+                </ul>
+                <br/>
+                <div dir="ltr">
+                    <h3>Education:</h3>
+                </div>
+                <ul>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Udacity, Nov 2023, Business Analytics Nanodegree (learned R SQL and
+                            Tableau)
+                        </div>
+                    </li>
+                    <ul>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                Mastered data fundamentals applicable to any industry and
+                                learned to make data-driven decisions.
+                            </div>
+                        </li>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                From collecting and analyzing data to modeling business
+                                scenarios, this course teaches Excel, SQL, and Tableau,
+                                utilizing data visualization skills to communicate findings.
+                            </div>
+                        </li>
+                    </ul>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Google Data Analytics, August 2023, Data analysis and business
+                            insight
+                        </div>
+                    </li>
+                    <ul>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                Prepared, processed, and analyzed data to help inform business
+                                decisions by developing in-demand data analytics skills using
+                                spreadsheets, SQL, Tableau, R, and more.
+                            </div>
+                        </li>
+                    </ul>
+                    <li dir="ltr">
+                        <div dir="ltr">
+                            Google Cybersecurity, April 2023, Cybersecurity principles, tools,
+                            and frameworks
+                        </div>
+                    </li>
+                    <ul>
+                        <li dir="ltr">
+                            <div dir="ltr">
+                                Upskill program to learn industry standard tools like Python,
+                                Linux, SQL, Security Information and Event Management (SIEM)
+                                tools, and Intrusion Detection Systems (IDS).
+                            </div>
+                        </li>
+                    </ul>
+                </ul>
+               
+            </section>
+
+        </main>
+        <aside>
+            <div id="left" class="float"></div>
+            <div id="right" class="float"></div>
+            
+            <div id="layer1">
+                <img src="background/Flower_forest_layer_0.png">
+            </div>
+            <div id="layer2">
+                <img src="background/Flower_forest_layer_1.png">
+            </div>
+            <div id="layer3">
+                <img src="background/Flower_forest_layer_2.png">
+            </div>
+            <div id="layer4">
+                <img src="background/Flower_forest_layer_3.png">
+            </div>
+            <div id="layer5">
+                <img src="background/Flower_forest_layer_4.png">
+            </div>
+            <div id="layer6">
+                <img src="background/Flower_forest_layer_5.png">
+            </div>
+            <div id="layer7">
+                <img src="background/Flower_forest_layer_6.png">
+            </div>
+
+            <!-- art by: https://niffirggames.itch.io/pixel-art-flower-forest-repeating-background -->
+
+        </aside>
+    </body>
+</html>

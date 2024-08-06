@@ -1,0 +1,136 @@
+.float {
+    border: black 2px;
+    position: fixed;
+    background-color: blue;
+}
+
+#top, #bottom {
+    width: 100%;
+    height: 100px;
+    z-index: 4;
+    opacity: 10%;
+}
+
+#right {
+    right: 0;
+}
+#bottom {
+    bottom: 0;
+}
+
+#right, #left {
+    height: 100%;
+    width: 100px;
+    z-index: 4;
+    opacity: 10%;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    display: block;
+}
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+    position: relative;
+}
+
+#back {
+    z-index: 0;
+}
+
+#middle {
+    z-index: 1;
+    transition: all 1s ease-in-out;
+}
+
+#front {
+    z-index: 2;
+    transition: all 1s ease-in-out;
+}
+
+#left:hover ~ #front {
+    margin-left: 50px;
+}
+#left:hover ~ #middle {
+    margin-left: 10px;
+}
+
+#right:hover ~ #front {
+    margin-left: -50px;
+}
+#right:hover ~ #middle {
+    margin-left: -10px;
+}
+
+#layer1{
+    z-index: 0;
+    transition: all 2s ease-in-out;
+}
+#layer2{
+    z-index: 1;
+    transition: all 2s ease-in-out;
+}
+#layer3{
+    z-index: 2;
+    transition: all 2s ease-in-out;
+}
+#layer4{
+    z-index: 3;
+    transition: all 2s ease-in-out;
+}
+#layer5{
+    z-index: 4;
+    transition: all 2s ease-in-out;
+}
+#layer6{
+    z-index: 5;
+    transition: all 2s ease-in-out;
+}
+#layer7{
+    z-index: 6;
+    transition: all 2s ease-in-out;
+}
+
+#left:hover ~ #layer7 {
+    margin-left: 100px;
+}
+#right:hover ~ #layer7 {
+    margin-left: -100px;
+}
+
+#left:hover ~ #layer6 {
+    margin-left: 70px;
+}
+#right:hover ~ #layer6 {
+    margin-left: -70px;
+}
+
+#left:hover ~ #layer5 {
+    margin-left: 30px;
+}
+#right:hover ~ #layer5 {
+    margin-left: -30px;
+}
+
+#left:hover ~ #layer4 {
+    margin-left: -5px;
+}
+#right:hover ~ #layer4 {
+    margin-left: 5px;
+}
+
+aside div img{
+    display: none;
+}
